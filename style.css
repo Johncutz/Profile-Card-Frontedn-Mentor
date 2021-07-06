@@ -1,0 +1,71 @@
+html {
+    background-color: hsl(185, 75%, 39%);
+}
+
+body {
+    text-align: center;
+    background-color: white;
+    font-family: 'Kumbh Sans';
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 10px;
+    margin: 125px 550px;
+    position:absolute;
+    height: 370px;
+    overflow: hidden;
+}
+
+#svgCard {
+    border-radius: 10px 10px 0px 0px;
+}
+
+
+#svg2 {
+    height: 800px;
+    position: absolute;
+    right: 0px;
+    left: -700px;
+    top: -600px;
+    bottom: -0px;
+}
+
+#imagem {
+    border-radius: 100%;
+    position: absolute;
+    top: 0px;
+    bottom: 90px;
+    right: 0px;
+    left: 0px;
+    margin: auto;
+}
+
+#text-gray {
+    color: hsl(227, 10%, 46%);
+}
+
+table {
+    margin: auto;
+}
+
+#svg1 {
+    height: 800px;
+    position: absolute;
+    right: -700px;
+    left: 200px;
+    top: 150px;
+    bottom: -600px;
+    z-index: -1;
+}
+
+@media (max-width: 375px) {
+    body {
+        position: absolute;
+        right: 0px;
+        bottom: 0px;
+        top: 150px;
+        left: 150px;
+        margin: 0px;
+        width: 266px;
+    }
+
+}
